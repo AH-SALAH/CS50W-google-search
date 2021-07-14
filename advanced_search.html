@@ -1,0 +1,184 @@
+<!--
+@author AH.SALAH
+@email https://github.com/AH-SALAH
+@create date 2021-07-10 16:09:54
+@modify date 2021-07-10 16:35:26
+@desc [Google advanced search]
+-->
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg" href="assets/img/ggl_icon.svg" />
+    <title>Google Advanced Search</title>
+    <meta name="description" content="Google Advanced Search">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- wrapper/container -->
+    <div class="main-container h-100">
+
+        <!-- header -->
+        <header class="d-flex w-100 justify-content-between align-items-center flex-wrap">
+            <div class="google_logo home px-1 flex-grow">
+                <a href="index.html">
+                    <img src="assets/img/ggl_logo.svg" alt="Google Search" width="74">
+                </a>
+            </div>
+            <nav class="nav d-flex justify-content-end align-items-center flex-wrap">
+                <ul class="nav_bar d-flex align-items-center pr-1">
+                    <li class="nav_item pl-1">
+                        <a href="https://mail.google.com/mail" class="nav_link text-dark">Gmail</a>
+                    </li>
+                    <li class="nav_item pl-1">
+                        <a href="images.html" class="nav_link text-dark">Images</a>
+                    </li>
+                    <li class="nav_item pl-1">
+                        <a href="index.html" class="nav_link text-dark">Google Search</a>
+                    </li>
+                </ul>
+                <div class="settings d-flex align-items-center">
+                    <div class="apps">
+                        <a class="apps_link" href="javascript:;" role="button" tabindex="0" title="Google apps">
+                            <svg class="apps_svg" focusable="false" viewBox="0 0 24 24">
+                                <path
+                                    d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="account">
+                        <a class="account_link d-flex align-items-center justify-content-center" href="javascript:;"
+                            role="button" tabindex="0" title="Google Account">
+                            <img class="account_img w-100 h-100 rounded-circle" src="http://placeimg.com/640/480/people"
+                                alt="avatar">
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- main content -->
+        <main class="d-flex flex-column justify-content-start align-items-center flex-grow">
+            <div
+                class="search_advanced_title text-danger d-flex justify-content-start align-items-center px-4 py-2 w-100">
+                <h2 class="title">Advanced Search</h2>
+            </div>
+            <hr class="w-100">
+            <form class="d-flex justify-content-center align-items-start flex-column w-100 p-5"
+                action="https://google.com/search">
+                <div class="form_body d-flex justify-content-center align-items-center flex-column">
+                    <div class="row d-flex justify-content-start align-items-center w-100 flex-wrap">
+                        <div class="col col-1">
+                            <span class="fs-1 text-dark">Find Pages With..</span>
+                        </div>
+                        <div class="col col-2 w-50 px-1"></div>
+                        <div class="col col-3">
+                            <div class="help_title"><strong> To do this in the search box.</strong></div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-start align-items-center w-100 flex-wrap">
+                        <div class="col col-1">
+                            <span>all these words:</span>
+                        </div>
+                        <div class="col col-2 w-50 px-1">
+                            <input class="all-textinput text-input w-100" autofocus="autofocus" name="as_q" type="text">
+                        </div>
+                        <div class="col col-3">
+                            <small>
+                                Type the important words:
+                                <span>tri-colour rat terrier</span>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-start align-items-center w-100 flex-wrap">
+                        <div class="col col-1">
+                            <span>this exact word or phrase:</span>
+                        </div>
+                        <div class="col col-2 w-50 px-1">
+                            <input class="this-textinput text-input w-100" name="as_epq" type="text">
+                        </div>
+                        <div class="col col-3">
+                            <small>
+                                Put exact words in quotes:
+                                <span>"rat terrier"</span>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-start align-items-center w-100 flex-wrap">
+                        <div class="col col-1">
+                            <span>any of these words:</span>
+                        </div>
+                        <div class="col col-2 w-50 px-1">
+                            <input class="any-textinput text-input w-100" name="as_oq" type="text">
+                        </div>
+                        <div class="col col-3">
+                            <small>
+                                Type OR between all the words you want:
+                                <span> miniature OR standard</span>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-start align-items-center w-100 flex-wrap">
+                        <div class="col col-1">
+                            <span>none of these words:</span>
+                        </div>
+                        <div class="col col-2 w-50 px-1">
+                            <input class="none-textinput text-input w-100" name="as_eq" type="text">
+                        </div>
+                        <div class="col col-3">
+                            <small>
+                                Put a minus sign just before words that you don't want:
+                                <span>-rodent, -"Jack Russell"</span>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-start align-items-center w-100 flex-wrap">
+                        <div class="col col-1"></div>
+                        <div class="col col-2 px-1 w-50 d-flex justify-content-end align-items-start">
+                            <input class="advanced_search_submit_btn bg-primary text-white px-1"
+                                style="-webkit-user-select:none;user-select:none;line-height:100%;height:30px;min-width:120px"
+                                value="Advanced Search" type="submit">
+                        </div>
+                        <div class="col col-3"></div>
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <div class="widget_1 py-1 px-3 bg-light">
+                <div>Unknown</div>
+            </div>
+            <div class="widget_2 px-1 bg-light">
+                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a class="p-1 text-footer"
+                            href="https://support.google.com/websearch/?p=ws_results_help">Help</a>
+                        <a class="p-1 text-footer" href="https://policies.google.com/privacy">Privacy</a>
+                        <a class="p-1 text-footer" href="https://policies.google.com/terms">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

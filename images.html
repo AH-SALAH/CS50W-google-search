@@ -1,0 +1,174 @@
+<!--
+@author AH.SALAH
+@email https://github.com/AH-SALAH
+@create date 2021-07-10 16:07:53
+@modify date 2021-07-12 02:40:00
+@desc [Google Image Search]
+-->
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg" href="assets/img/ggl_icon.svg" />
+    <title>Google Images</title>
+    <meta name="description" content="Google Images Search">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- wrapper/container -->
+    <div class="main-container h-100">
+        <!-- header -->
+        <header>
+            <nav class="nav d-flex justify-content-end align-items-center flex-wrap">
+                <ul class="nav_bar d-flex align-items-center pr-1">
+                    <li class="nav_item pl-1">
+                        <a href="https://mail.google.com/mail" class="nav_link text-dark">Gmail</a>
+                    </li>
+                    <li class="nav_item pl-1">
+                        <a href="index.html" class="nav_link text-dark">Google Search</a>
+                    </li>
+                    <li class="nav_item pl-1">
+                        <a href="advanced_search.html" class="nav_link text-dark">Advancd Search</a>
+                    </li>
+                </ul>
+                <div class="settings d-flex align-items-center">
+                    <div class="apps">
+                        <a class="apps_link" href="javascript:;" role="button" tabindex="0" title="Google apps">
+                            <svg class="apps_svg" focusable="false" viewBox="0 0 24 24">
+                                <path
+                                    d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="account">
+                        <a class="account_link d-flex align-items-center justify-content-center" href="javascript:;"
+                            role="button" tabindex="0" title="Google Account">
+                            <img class="account_img w-100 h-100 rounded-circle" src="http://placeimg.com/640/480/people"
+                                alt="avatar">
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- main -->
+        <main class="d-flex flex-column justify-content-center align-items-center flex-grow">
+            <div class="main_logo">
+                <img class="main_logo__img" alt="Google" height="92" src="assets/img/ggl_images_logo.svg" width="272">
+            </div>
+            <form class="d-flex justify-content-center align-items-center flex-column w-100 p-2"
+                action="https://google.com/search">
+                <div
+                    class="form_aria d-flex justify-content-between align-items-center flex-wrap position-relative w-100">
+                    <div class="magnify px-1 d-flex justify-content-center align-items-center">
+                        <span class="magnify_icon d-inline-block">
+                            <img class="magnify_img w-100" src="assets/img/search_icon.svg" alt="search icon">
+                        </span>
+                    </div>
+                    <div class="form_wrapper">
+                        <input type="hidden" name="tbm" value="isch">
+                        <input class="search_input w-100" maxlength="2048" name="q" type="text" aria-autocomplete="both"
+                            aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus
+                            role="combobox" spellcheck="false" title="Search" aria-label="Search">
+                    </div>
+                    <div class="camera">
+                        <div class="camera_icon d-flex justify-content-center align-items-center"
+                            aria-label="Search by image" role="button" tabindex="0" title="Search by image">
+                            <img class="camera_img w-100" src="assets/img/camera.svg" alt="Search by camera">
+                        </div>
+                    </div>
+                    <div class="mic images_search_mic">
+                        <div class="mic_icon" aria-label="Search by voice" role="button" tabindex="0"
+                            title="Search by voice">
+                            <img class="mic_img w-100" src="assets/img/mic.svg" alt="Search by voice">
+                        </div>
+                    </div>
+                    <button class="magnify_search__btn px-1 d-flex justify-content-center align-items-center"
+                        aria-label="Google Search" type="submit"
+                        onclick="if(document.querySelector('input[name=q]').value=='') return false;">
+                        <span class="magnify_icon d-inline-block">
+                            <svg class="magnify_svg" focusable="false" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                </path>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <div class="widget_1 py-1 px-3 bg-light">
+                <div>Unknown</div>
+            </div>
+            <div class="widget_2 px-1 bg-light">
+                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                    <div class="d-flex justify-content-center align-items-center flex-wrap">
+                        <a class="p-1 text-footer" href="https://about.google/?utm_source=google">About</a>
+                        <a class="p-1 text-footer"
+                            href="https://www.google.com/intl/en_eg/ads/?utm_source=google.com">Advertising</a>
+                        <a class="p-1 text-footer"
+                            href="https://www.google.com/services/?utm_source=google.com">Business</a>
+                        <a class="p-1 text-footer" href="https://google.com/search/howsearchworks"> How Search works
+                        </a>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a class="p-1 text-footer" href="https://policies.google.com/privacy">Privacy</a>
+                        <a class="p-1 text-footer" href="https://policies.google.com/terms">Terms</a>
+                        <div class="position-relative">
+                            <button onclick="this.nextElementSibling.classList.toggle('d-none')"
+                                class="footer_settings__btn p-1 text-footer" aria-haspopup="true">Settings</button>
+                            <ul onmouseleave="this.classList.add('d-none')" role="menu" role="menu"
+                                class="footer_settings__menu bg-white position-absolute d-none flex-column justify-content-center align-items-start">
+                                <li role="none">
+                                    <a href="https://www.google.com/preferences" role="menuitem" tabindex="-1">Search
+                                        settings</a>
+                                </li>
+                                <li role="none">
+                                    <a href="advanced_search.html" role="menuitem" tabindex="-1">Advanced search</a>
+                                </li>
+                                <li role="none">
+                                    <a href="https://myactivity.google.com/privacyadvisor/search?utm_source=googlemenu"
+                                        role="menuitem" tabindex="-1">Your data in Search</a>
+                                </li>
+                                <li role="none">
+                                    <a href="https://myactivity.google.com/product/search?utm_source=google"
+                                        role="menuitem" tabindex="-1">Search history</a>
+                                </li>
+                                <li role="none">
+                                    <a href="https://support.google.com/websearch/?p=ws_results_help" role="menuitem"
+                                        tabindex="-1">Search help</a>
+                                </li>
+                                <li role="none">
+                                    <button role="menuitem" tabindex="-1">Send feedback</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

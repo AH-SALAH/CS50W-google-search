@@ -1,0 +1,59 @@
+// reboot
+html,
+body {
+    height: 100%;
+}
+
+* {
+    padding   : 0;
+    margin    : 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+button {
+    font-size  : 14px;
+    font-family: arial, sans-serif;
+    color      : #222;
+}
+
+a,
+button {
+    text-decoration: none;
+    cursor         : pointer;
+    display        : block;
+}
+
+button {
+    border    : none;
+    background: none;
+}
+
+a {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+hr {
+    border-bottom: 0px none;
+    border-top   : 1px solid #ebebeb;
+}
+
+input {
+    background-color           : transparent;
+    border                     : none;
+    margin                     : 0;
+    padding                    : 0;
+    color                      : #222;
+    word-wrap                  : break-word;
+    outline                    : none;
+    -webkit-tap-highlight-color: transparent;
+    height                     : 34px;
+    font-size                  : 1rem;
+}
+
+li {
+    list-style-type: none;
+}
